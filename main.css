@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=David+Libre&display=swap");
+* {
+  font-family: 'Secular One', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  -webkit-text-decoration: gray;
+          text-decoration: gray;
+  font-weight: bold;
+}
+
+h1 p {
+  margin-top: 0;
+}
+
+#cont button {
+  cursor: pointer;
+  margin: 1em;
+  font-size: larger;
+  border: none;
+}
+
+#tmp {
+  display: none;
+}
+
+#tmp button {
+  width: 120px;
+  height: 120px;
+  background: #e0d8d8;
+  font-weight: bold;
+  margin: 1em;
+  cursor: pointer;
+  color: black;
+}
+
+#tmp button:hover {
+  background: black;
+  color: #e0d8d8;
+}
+
+#options-link,
+#options-link:active {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+}
+
+#options-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details input {
+  margin: .5em;
+}
+
+.by,
+.github {
+  margin-top: 3em;
+}
+
+.github {
+  margin-top: 1em;
+}
+/*# sourceMappingURL=main.css.map */
